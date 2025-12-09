@@ -1,4 +1,3 @@
-
 is_prime <- function(n) {
   if (n <= 1) {
     return(FALSE)

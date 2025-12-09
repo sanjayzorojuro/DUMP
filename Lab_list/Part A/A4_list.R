@@ -17,9 +17,8 @@ print(lst)
 
 
 #removing elements from the list.
-print(lst[-5])
-
-
+lst<-lst[-5]
+print(lst)
 
 #printing first and third element.
 print(paste("The Students name is:",lst$Names))

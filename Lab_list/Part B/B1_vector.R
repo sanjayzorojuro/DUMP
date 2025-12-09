@@ -22,10 +22,7 @@ medi<-median(vect)
 print(paste("Median is :",medi))
 
 #Finding range
-a<-max(vect)
-b<-min(vect)
-range<-a-b
-print(paste("Range is:",range))
+print(range(vect))
 
 
 #Finding the variance and standard deivation
