@@ -4,3 +4,5 @@ hist(data,
      main = "Histogram Example", 
      xlab = "Values", 
      ylab = "Frequency")
+
+
