@@ -8,4 +8,4 @@ df <- data.frame(
 # Multiple scatter plots in a matrix
 pairs(df)
 
-# this is a scatter plot matrix.
+# this is a scatter plot matrix. 
