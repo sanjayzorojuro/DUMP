@@ -53,9 +53,9 @@ class Employeee implements EmployeeSalary {
     }
 
     void display() {
-        System.out.printf("----------------------------------------");
-        System.out.printf("EmpID:%d\nName: %s\nGender: %s\nEmpType value:%d",empId, name, gender, type.value);
-        System.out.printf("----------------------------------------");
+        System.out.printf("----------------------------------------\n");
+        System.out.printf("EmpID:%d\nName: %s\nGender: %s\nEmpType value:%s",empId, name, gender, type);
+        System.out.printf("----------------------------------------\n");
 
     }
 }
