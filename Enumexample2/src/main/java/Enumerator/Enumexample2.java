@@ -41,14 +41,13 @@ class Student implements Numerics {
         gender = Gender1.valueOf(g);
     }
 
-    @Override
+    @Override   
     public void calculate() {
         total = m1 + m2;
     }
 
     void display() {
         System.out.printf("Student Rollnumber: %d \n M1: %d \n M2:%d \n Name: %s \n Gender:%s \n Total:%d \n", rollnumber, m1, m2, name, gender, total);
-
     }
 }
 
