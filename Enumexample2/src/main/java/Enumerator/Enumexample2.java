@@ -50,7 +50,7 @@ class Student implements Numerics {
         System.out.printf("Student Rollnumber: %d \n M1: %d \n M2:%d \n Name: %s \n Gender:%s \n Total:%d \n", rollnumber, m1, m2, name, gender, total);
     }
 }
-
+// main class
 public class Enumexample2 {
 
     public static void main(String[] args) {
