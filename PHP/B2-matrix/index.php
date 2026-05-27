@@ -32,7 +32,7 @@
                     $val = isset($_POST['A'][$i][$j]);
                     echo "<td><input type='number' name='A[$i][$j]' value='$val'></td>";
                 }
-            }
+            } 
             echo "</table>";
 
             echo "<h3> Matrix A </h3>";
